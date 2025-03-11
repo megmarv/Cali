@@ -19,4 +19,21 @@ public class Calculator {
     public void setNum2(float num2) {
         this.num2 = num2;
     }
+
+    public float add(float num1, float num2) {
+        return num1 + num2;
+    }
+
+    public float substract(float num1, float num2) {
+        return num1 - num2;
+    }
+
+    public float multiply(float num1, float num2) {
+        return num1 * num2;
+    }
+
+    public float divide(float num1, float num2) {
+        return num1 / num2;
+    }
+
 }
