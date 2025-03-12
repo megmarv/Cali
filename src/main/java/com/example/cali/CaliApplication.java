@@ -12,7 +12,7 @@ public class CaliApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(CaliApplication.class.getResource("Calculator.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 300, 400);
-        stage.setTitle("Cali - Your custom Calculator");
+        stage.setTitle("Cali - handy math");
         stage.setScene(scene);
         stage.show();
     }

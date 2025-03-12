@@ -1,0 +1,24 @@
+.number_buttons{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+.number_buttons:hover{
+    -fx-background-color: grey;
+    -fx-text-fill: white;
+}
+
+.operations_buttons{
+    -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);
+    -fx-text-fill: white;
+}
+
+.operations_buttons:hover{
+    -fx-background-color:black;
+    -fx-text-fill: white;
+}
+
+.results_field{
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+}

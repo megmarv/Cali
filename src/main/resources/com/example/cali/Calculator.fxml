@@ -8,72 +8,71 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cali.CaliController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cali.CaliController">
    <children>
-      <TextField fx:id="display" editable="false" layoutX="25.0" layoutY="15.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="75.0" prefWidth="250.0" text="0">
+      <TextField fx:id="display" editable="false" layoutX="25.0" layoutY="15.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="75.0" prefWidth="250.0" styleClass="results_field" text="0">
          <font>
             <Font size="40.0" />
          </font>
       </TextField>
       <FlowPane layoutX="25.0" layoutY="125.0" prefHeight="180.0" prefWidth="180.0">
          <children>
-            <Button mnemonicParsing="false" onAction="#button1Clicked" prefHeight="60.0" prefWidth="60.0" text="1">
+            <Button mnemonicParsing="false" onAction="#button1Clicked" prefHeight="60.0" prefWidth="60.0" styleClass="number_buttons" text="1">
                <font>
                   <Font size="25.0" />
                </font>
             </Button>
-            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#button2Clicked" prefHeight="60.0" prefWidth="60.0" text="2">
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#button2Clicked" prefHeight="60.0" prefWidth="60.0" styleClass="number_buttons" text="2">
                <font>
                   <Font size="25.0" />
                </font>
             </Button>
-            <Button layoutX="70.0" layoutY="10.0" mnemonicParsing="false" onAction="#button3Clicked" prefHeight="60.0" prefWidth="60.0" text="3">
+            <Button layoutX="70.0" layoutY="10.0" mnemonicParsing="false" onAction="#button3Clicked" prefHeight="60.0" prefWidth="60.0" styleClass="number_buttons" text="3">
                <font>
                   <Font size="25.0" />
                </font>
             </Button>
-            <Button layoutX="130.0" layoutY="10.0" mnemonicParsing="false" onAction="#button4Clicked" prefHeight="60.0" prefWidth="60.0" text="4">
+            <Button layoutX="130.0" layoutY="10.0" mnemonicParsing="false" onAction="#button4Clicked" prefHeight="60.0" prefWidth="60.0" styleClass="number_buttons" text="4">
                <font>
                   <Font size="25.0" />
                </font>
             </Button>
-            <Button layoutX="10.0" layoutY="70.0" mnemonicParsing="false" onAction="#button5Clicked" prefHeight="60.0" prefWidth="60.0" text="5">
+            <Button layoutX="10.0" layoutY="70.0" mnemonicParsing="false" onAction="#button5Clicked" prefHeight="60.0" prefWidth="60.0" styleClass="number_buttons" text="5">
                <font>
                   <Font size="25.0" />
                </font>
             </Button>
-            <Button layoutX="70.0" layoutY="70.0" mnemonicParsing="false" onAction="#button6Clicked" prefHeight="60.0" prefWidth="60.0" text="6">
+            <Button layoutX="70.0" layoutY="70.0" mnemonicParsing="false" onAction="#button6Clicked" prefHeight="60.0" prefWidth="60.0" styleClass="number_buttons" text="6">
                <font>
                   <Font size="25.0" />
                </font>
             </Button>
-            <Button layoutX="130.0" layoutY="70.0" mnemonicParsing="false" onAction="#button7Clicked" prefHeight="60.0" prefWidth="60.0" text="7">
+            <Button layoutX="130.0" layoutY="70.0" mnemonicParsing="false" onAction="#button7Clicked" prefHeight="60.0" prefWidth="60.0" styleClass="number_buttons" text="7">
                <font>
                   <Font size="25.0" />
                </font>
             </Button>
-            <Button layoutX="10.0" layoutY="130.0" mnemonicParsing="false" onAction="#button8Clicked" prefHeight="60.0" prefWidth="60.0" text="8">
+            <Button layoutX="10.0" layoutY="130.0" mnemonicParsing="false" onAction="#button8Clicked" prefHeight="60.0" prefWidth="60.0" styleClass="number_buttons" text="8">
                <font>
                   <Font size="25.0" />
                </font>
             </Button>
-            <Button layoutX="70.0" layoutY="130.0" mnemonicParsing="false" onAction="#button9Clicked" prefHeight="60.0" prefWidth="60.0" text="9">
+            <Button layoutX="70.0" layoutY="130.0" mnemonicParsing="false" onAction="#button9Clicked" prefHeight="60.0" prefWidth="60.0" styleClass="number_buttons" text="9">
                <font>
                   <Font size="25.0" />
                </font>
             </Button>
-            <Button layoutX="70.0" layoutY="10.0" mnemonicParsing="false" onAction="#button0Clicked" prefHeight="60.0" prefWidth="60.0" text="0">
+            <Button layoutX="70.0" layoutY="10.0" mnemonicParsing="false" onAction="#button0Clicked" prefHeight="60.0" prefWidth="60.0" styleClass="number_buttons" text="0">
                <font>
                   <Font size="25.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" onAction="#calculate" prefHeight="60.0" prefWidth="60.0" text="=">
+            <Button mnemonicParsing="false" onAction="#calculate" prefHeight="60.0" prefWidth="60.0" styleClass="operations_buttons" text="=">
                <font>
                   <Font size="25.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" onAction="#clearTextField" prefHeight="60.0" prefWidth="60.0" text="C">
+            <Button mnemonicParsing="false" onAction="#clearTextField" prefHeight="60.0" prefWidth="60.0" styleClass="operations_buttons" text="C">
                <font>
                   <Font size="25.0" />
                </font>
@@ -82,22 +81,22 @@
       </FlowPane>
       <VBox layoutX="215.0" layoutY="125.0" prefHeight="240.0" prefWidth="60.0">
          <children>
-            <Button mnemonicParsing="false" onAction="#add" prefHeight="60.0" prefWidth="60.0" text="+">
+            <Button mnemonicParsing="false" onAction="#add" prefHeight="60.0" prefWidth="60.0" styleClass="operations_buttons" text="+">
                <font>
                   <Font size="25.0" />
                </font>
             </Button>
-            <Button layoutX="10.0" layoutY="70.0" mnemonicParsing="false" onAction="#substract" prefHeight="60.0" prefWidth="60.0" text="-">
+            <Button layoutX="10.0" layoutY="70.0" mnemonicParsing="false" onAction="#substract" prefHeight="60.0" prefWidth="60.0" styleClass="operations_buttons" text="-">
                <font>
                   <Font size="25.0" />
                </font>
             </Button>
-            <Button layoutX="10.0" layoutY="130.0" mnemonicParsing="false" onAction="#divide" prefHeight="60.0" prefWidth="60.0" text="/">
+            <Button layoutX="10.0" layoutY="130.0" mnemonicParsing="false" onAction="#divide" prefHeight="60.0" prefWidth="60.0" styleClass="operations_buttons" text="/">
                <font>
                   <Font size="25.0" />
                </font>
             </Button>
-            <Button layoutX="10.0" layoutY="172.0" mnemonicParsing="false" onAction="#multiply" prefHeight="60.0" prefWidth="60.0" text="*">
+            <Button layoutX="10.0" layoutY="172.0" mnemonicParsing="false" onAction="#multiply" prefHeight="60.0" prefWidth="60.0" styleClass="operations_buttons" text="*">
                <font>
                   <Font size="25.0" />
                </font>
