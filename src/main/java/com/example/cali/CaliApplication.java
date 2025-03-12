@@ -11,8 +11,8 @@ public class CaliApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(CaliApplication.class.getResource("Calculator.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
+        Scene scene = new Scene(fxmlLoader.load(), 300, 400);
+        stage.setTitle("Cali - Your custom Calculator");
         stage.setScene(scene);
         stage.show();
     }
